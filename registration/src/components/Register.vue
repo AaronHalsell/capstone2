@@ -97,6 +97,7 @@
         class="graphic md:block duration-1000 transition"
         v-bind:class="{ 'order-first': isActive }" 
     ></div>
+    <!-- v-bind:class="{ 'translate-x-full'}: isActive"  // this is mimics an animation but does not switch -->
 </div>
 </template>
 
